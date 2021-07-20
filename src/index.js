@@ -1,15 +1,13 @@
 import { loadContent } from './loadContent.js';
-import { anime } from './anime.js';
+import { manga } from './manga.js';
 
 // TODO: add eventListeners to each tab button
-const animeButton = document.querySelector('#anime');
-const tabs = document.querySelector('#tabs');
+const mangaTab = document.querySelector('#manga');
 
-animeButton.addEventListener('click', () => {
+mangaTab.addEventListener('click', () => {
 
-    animeButton.classList.add('active');
-    tabs.classList.add('active');
-    loadContent(anime);
+    mangaTab.classList.add('active');
+    loadContent(manga);
 
 }, { once: true });
 

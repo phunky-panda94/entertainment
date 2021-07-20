@@ -44,7 +44,7 @@ html {
 
 header {
     background-color: #4c843c;
-    
+    border-bottom: 3px solid black;
     height: 15vh;
     width: 100vw;
 }
@@ -92,10 +92,6 @@ main {
 
 #tabs {
     border-bottom: 3px solid #ffffff;
-}
-
-#tabs.active {
-    border-bottom: 3px solid black;
 }
 
 /* Flex */
