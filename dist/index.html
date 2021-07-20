@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="main.js"></script>
-    <title>entertainment</title>
+	<link rel="stylesheet" href="../src/style.css">
+    <script src="main.js" defer></script>
+    <title>Entertainment Hub</title>
 </head>
 <body>
-	<div id="content">
+    <header>
+        <div class="sub-header flex flex-jc-c flex-ai-c">
+            <h1>Entertainment Hub</h1>
+        </div>
+        <div class="sub-header flex flex-jc-c flex-ai-c">
+            <h3>Your one-stop shop for anime, manga, TV shows and movies</h3>
+        </div>
+        <div id="tabs" class="sub-header flex flex-jc-c flex-ai-e">
+            <button id="anime" class="tab">Anime</button>
+            <button id="manga" class="tab">Manga</button>
+            <button id="tv" class="tab">TV</button>
+            <button id="movies" class="tab">Movies</button>
+        </div>
+    </header>
+    <main class="flex flex-jc-c">
+        <div id="ears" class="flex flex-jc-sa flex-ai-e">
+            <div class="ear"></div>
+            <div class="ear"></div>
+        </div>
+        <div id="content" class="flex flex-jc-sa flex-f">
+        </div>
+    </main>
 </body>
 </html>
