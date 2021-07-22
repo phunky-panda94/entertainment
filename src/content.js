@@ -1,6 +1,7 @@
-export const loadContent = (data) => {
+const content = document.querySelector('#content');
 
-    const content = document.querySelector('#content');
+export const loadContent = (data) => {
+    
     let card;
     let img;
 
@@ -19,6 +20,18 @@ export const loadContent = (data) => {
         content.append(card);
         
     })
+
+};
+
+export const removeContent = () => {
+
+    let cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+
+        content.removeChild(card);
+
+    });
 
 };
 
